@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.david.orgue.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/container_segunda_actividad"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:ignore="MissingConstraints" />
+
+    <fragment
+            android:id="@+id/fragment_id"
+            android:name="app.david.orgue.preferencias.Buto"
+            android:layout="@layout/fragment_botones"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="FragmentTagUsage"
+            tools:layout="@layout/fragment_botones" />
+
+        <!-- Aquí puedes agregar más vistas según sea necesario -->
+
+    <TextView
+        android:id="@+id/titleMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/l_orgue"
+        android:layout_marginTop="40dp"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/border_color"
+        android:fontFamily="@font/happymonkey_regular"
+        android:paddingHorizontal="30dp"/>
+
+    <Button
+        android:id="@+id/butonInformacioMenu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="50dp"
+        android:fontFamily="@font/happymonkey_regular"
+        android:layout_marginTop="35dp"
+        android:text="@string/informacio_historica"
+        app:layout_constraintTop_toBottomOf="@id/iv_avatar"
+        />
+
+    <Button
+        android:id="@+id/butonJocMenu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintTop_toBottomOf="@id/butonInformacioMenu"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="50dp"
+        android:fontFamily="@font/happymonkey_regular"
+        android:text="@string/joc"
+        />
+
+    <Button
+        android:id="@+id/butonPuntuacionsMenu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintTop_toBottomOf="@id/butonJocMenu"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="50dp"
+        android:fontFamily="@font/happymonkey_regular"
+        android:text="@string/puntuacions"
+        />
+
+    <Button
+        android:id="@+id/butonAgraimentsMenu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintTop_toBottomOf="@id/butonPuntuacionsMenu"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="50dp"
+        android:fontFamily="@font/happymonkey_regular"
+        android:text="Sobre de"
+        />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="225dp"
+        android:layout_height="225dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="5dp"
+        android:src="@drawable/fotoorga"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/titleMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shapeAppearanceOverlay="@style/circleImageView"
+        app:strokeColor="@android:color/darker_gray"
+        />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

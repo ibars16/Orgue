@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/listPreferredItemHeight"
+    android:orientation="vertical"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="22dp"
+        android:layout_height="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="37dp"
+        android:layout_toEndOf="@+id/id_incidencia"
+        android:src="@drawable/ic_baseline_star_24"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/iv_avatar1"
+        android:layout_width="22dp"
+        android:layout_height="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="37dp"
+        android:layout_toEndOf="@+id/iv_avatar"
+        android:src="@drawable/ic_baseline_star_24"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/iv_avatar2"
+        android:src="@drawable/ic_baseline_star_24"
+        android:fontFamily="@font/happymonkey_regular"
+
+        android:layout_width="22dp"
+        android:layout_height="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_toEndOf="@+id/iv_avatar1"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/nombreIncidencia"
+        android:fontFamily="@font/happymonkey_regular"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="35dp"
+        android:text="Nombre"
+        android:textAppearance="?attr/textAppearanceListItem"
+        tools:text="Alexander Pierrot" />
+
+    <TextView
+        android:id="@+id/id_incidencia"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombreIncidencia"
+        android:layout_alignLeft="@+id/nombreIncidencia"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="-17dp"
+        android:fontFamily="@font/happymonkey_regular"
+        android:text="Cargo"
+        android:textSize="14sp"
+        tools:text="CEO" />
+
+</RelativeLayout>

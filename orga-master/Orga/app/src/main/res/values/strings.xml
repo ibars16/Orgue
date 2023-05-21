@@ -1,0 +1,86 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Orgue</string>
+    <string name="l_orgue">ORGUE DE VALLS</string>
+    <string name="informacio_historica">Informació històrica</string>
+    <string name="joc">Joc</string>
+    <string name="puntuacions">Puntuacions</string>
+    <string name="historia">Història</string>
+    <string name="descripcio1" tools:ignore="StringEscaping">Valls havia tingut sempre un orgue. Abans de construir-se l\'actual església de St. Joan n\'hi havia una de més petita, la de St. Miquel. </string>
+    <string name="descripcio2">Se sap que aquesta ja tenia un orgue petit. Quan es va construir l\'església de St. Joan va necessitar  </string>
+    <string name="descripcio3">un orgue més gran que s’adeqüés a les noves mesures de la nau. La construcció del nou orgue es va fer entre els anys 1587 i 1590.</string>
+    <string name="descripcio4">Estava situat a la meitat de la nau. Els teclats estaven situats en alçada en una mena de balconada. L\'organista hi accedia per una escala situada a l\'interior del mur. L\'any 1936 va ser destruït i van fondre el metall dels tubs per fer munició per a la Guerra Civil Espanyola. L\'últim dia que es va fer sonar va ser el 21 de juliol.</string>
+    <string name="descripcio5">Un grup de ciutadans i institucions de Valls vinculades amb la música han volgut recuperar aquest instrument per a la ciutat. Està pensat perquè tingui diferents usos, concerts, aprenentatge de l\'instrument, acompanyament als actes litúrgics…</string>
+    <string name="el_nou_orgue">El nou orgue</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="joc1">1. Busqueu aquest carreu i situeu-lo al plànol.</string>
+    <string name="fallos">Errades: 0</string>
+    <string name="title_activity_primer_joc">PrimerJoc</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="joc2">2. Ara ja podeu entrar a la nau. Durant la visita haureu d’anar-vos fixant si hi ha recordatoris referents a la ciutat tal
+com hem vist a fora. Quantifiqueu-los i al final del recorregut trieu la resposta correcta.</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="joc2_1">2. Quants escuts de la ciutat has pogut comptabilitzar al llarg de la visita?</string>
+    <string name="joc2opcio1">Entre 10 i 20</string>
+    <string name="joc2opcio2">Entre 21 i 40</string>
+    <string name="joc2opcio3">Més de 40    </string>
+    <string name="siguiente">Següent</string>
+    <string name="joc3">3. Segons la imatge, on creieu que estava situat l’orgue anterior? Situeu-lo al plànol.</string>
+    <string name="joc4">4. Aneu a la ubicació que mostra el plànol.</string>
+    <string name="joc4_1">4. Un cop llegida la informació, quina creieu que és la relació entre el disseny de la façana del nou orgue i la ciutat de Valls?</string>
+    <string name="joc5">5. A continuació aneu a la ubicació que mostra el plànol i obriu la nova informació.</string>
+    <string name="opcio1joc5"> Els calçots i els castells</string>
+    <string name="opcio2joc5"> Els castells i el campanar</string>
+    <string name="opcio3joc5"> El campanar i els gegants </string>
+    <string name="joc6">5. Llegiu i relacioneu cada tipus d’orgue amb la definició que creieu que li correspon.</string>
+    <string name="joc7">7. Ja sabeu força coses sobre aquest instrument. Aneu a la nova ubicació per continuar amb l’activitat.</string>
+    <string name="joc7_1">7. Mireu bé la façana de l’orgue i trieu de totes aquestes parts les que són visibles.</string>
+    <string name="opcio1joc7">Barnilles</string>
+    <string name="opcio2joc7">Caixa de l’expressiu</string>
+    <string name="opcio3joc7">Manuals (teclats)</string>
+    <string name="opcio4joc7">Manxes</string>
+    <string name="opcio5joc7">Pedal de l’expressiu</string>
+    <string name="opcio6joc7">Pedaler</string>
+    <string name="opcio7joc7">Poms dels registres</string>
+    <string name="opcio8joc7">Secret</string>
+    <string name="opcio9joc7">Tubs</string>
+    <string name="opcio1joc8">  No hi ha cap diferència, és el mateix</string>
+    <string name="opcio2joc8"> L’orguener construeix i l’organista toca</string>
+    <string name="opcio3joc8"> L’organista construeix i l’orguener toca</string>
+    <string name="opcio4joc8"> L’orguener toca molt i l’organista no toca gaire.</string>
+    <string name="title_activity_informacio">InformacioActivity</string>
+    <string name="joc4opcio1">Els calçots i els castells</string>
+    <string name="joc4opcio2">Els castells i el campanar</string>
+    <string name="joc4opcio3">El campanar i els gegants</string>
+    <string name="joc8">
+        8. Ja esteu acabant.
+        Obriu la següent informació sobre aquest instrument.
+    </string>
+    <string name="joc8_1">8. Quina és la diferència entre orguener i organista?</string>
+    <string name="joc9">6. Ara aneu a la següent ubicació i obriu la informació.
+Observeu bé la imatge i responeu.
+    </string>
+    <string name="joc9opcio1">Està arran de terra</string>
+    <string name="joc9opcio2">Està suspès en una balconada</string>
+
+    <string name="infoJocUn">
+        Aquests carreus donen informació de qui i com s\'ha pogut construir aquest edifici.
+        Els lleons representen la força, el valor i la noblesa i, per altra banda, veiem l\'escut de la ciutat.
+        La gent de la ciutat s\'han preocupat per poder-lo construir i hi ha col·laborat en la mesura que a cadascú li era possible.
+    </string>
+    <string name="orgaEdifici">
+        Començarem la visita fixant-nos en les dimensions de l’edificació on s’ubica l’orgue.
+        Cal que sigui gran, ja que l’instrument també ho és.
+        A la cantonada podem observar un carreu diferent dels altres
+        Dos lleons sostenen l’escut de la ciutat de Valls.
+        Això ens indica que l’edifici pertany a la ciutat i a tota la gent que hi viu.
+        A l’interior també podem veure l’escut, ara sí amb els colors de la ciutat, a cadascuna de les claus de volta.
+
+    </string>
+
+</resources>

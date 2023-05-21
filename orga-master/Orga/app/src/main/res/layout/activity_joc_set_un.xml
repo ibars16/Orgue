@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fontFamily="@font/happymonkey_regular">
+
+    <fragment
+        android:id="@+id/fragment_id"
+        android:name="app.david.orgue.preferencias.Buto"
+        android:layout="@layout/fragment_botones"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="FragmentTagUsage"
+        tools:layout="@layout/fragment_botones" />
+
+    <TextView
+        android:id="@+id/descripcioJoc7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="30sp"
+        android:text="@string/joc7_1"
+        android:textSize="@dimen/midaNormal"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/border_color"
+        android:fontFamily="@font/happymonkey_regular"
+        android:paddingHorizontal="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/opcio1joc7icon"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/ic_baseline_image_search_24"
+        android:tag="1"
+        app:layout_constraintEnd_toStartOf="@+id/opcio1joc7"
+        app:layout_constraintTop_toBottomOf="@+id/descripcioJoc7" />
+
+    <TextView
+        android:id="@+id/opcio1joc7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/happymonkey_regular"
+        android:text="@string/opcio1joc7"
+        android:textColor="@color/border_color"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descripcioJoc7" />
+
+    <ImageButton
+        android:id="@+id/opcio2joc7icon"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/ic_baseline_image_search_24"
+        android:tag="2"
+        app:layout_constraintEnd_toStartOf="@+id/opcio2joc7"
+        app:layout_constraintTop_toBottomOf="@+id/opcio1joc7" />
+
+    <TextView
+        android:id="@+id/opcio2joc7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/border_color"
+        android:fontFamily="@font/happymonkey_regular"
+        android:textSize="18sp"
+        android:text="@string/opcio2joc7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opcio1joc7" />
+
+    <ImageButton
+        android:id="@+id/opcio3joc7icon"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/ic_baseline_image_search_24"
+        android:tag="3"
+        app:layout_constraintEnd_toStartOf="@+id/opcio3joc7"
+        app:layout_constraintTop_toBottomOf="@+id/opcio2joc7" />
+
+    <TextView
+        android:id="@+id/opcio3joc7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/opcio3joc7"
+        android:textColor="@color/border_color"
+        android:fontFamily="@font/happymonkey_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opcio2joc7" />
+
+    <ImageButton
+        android:id="@+id/opcio4joc7icon"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/ic_baseline_image_search_24"
+        android:tag="4"
+        app:layout_constraintEnd_toStartOf="@+id/opcio4joc7"
+        app:layout_constraintTop_toBottomOf="@+id/opcio3joc7" />
+
+    <TextView
+        android:id="@+id/opcio4joc7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/opcio4joc7"
+        android:textColor="@color/border_color"
+        android:fontFamily="@font/happymonkey_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opcio3joc7" />
+
+    <ImageButton
+        android:id="@+id/opcio5joc7icon"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/ic_baseline_image_search_24"
+        android:tag="5"
+        app:layout_constraintEnd_toStartOf="@+id/opcio5joc7"
+        app:layout_constraintTop_toBottomOf="@+id/opcio4joc7" />
+
+    <TextView
+        android:id="@+id/opcio5joc7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/opcio5joc7"
+        android:textColor="@color/border_color"
+        android:fontFamily="@font/happymonkey_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opcio4joc7" />
+
+    <ImageButton
+        android:id="@+id/opcio6joc7icon"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/ic_baseline_image_search_24"
+        android:layout_marginRight="15dp"
+        android:tag="6"
+        app:layout_constraintEnd_toStartOf="@+id/opcio6joc7"
+        app:layout_constraintTop_toBottomOf="@+id/opcio5joc7" />
+
+    <TextView
+        android:id="@+id/opcio6joc7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/opcio6joc7"
+        android:textColor="@color/border_color"
+        android:fontFamily="@font/happymonkey_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opcio5joc7" />
+
+    <ImageButton
+        android:id="@+id/opcio7joc7icon"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/ic_baseline_image_search_24"
+        android:tag="7"
+        app:layout_constraintEnd_toStartOf="@+id/opcio7joc7"
+        app:layout_constraintTop_toBottomOf="@+id/opcio6joc7" />
+
+    <TextView
+        android:id="@+id/opcio7joc7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/border_color"
+        android:fontFamily="@font/happymonkey_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="18sp"
+        android:text="@string/opcio7joc7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opcio6joc7" />
+
+    <ImageButton
+        android:id="@+id/opcio8joc7icon"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/ic_baseline_image_search_24"
+        android:tag="8"
+        app:layout_constraintEnd_toStartOf="@+id/opcio8joc7"
+        app:layout_constraintTop_toBottomOf="@+id/opcio7joc7" />
+
+    <TextView
+        android:id="@+id/opcio8joc7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/border_color"
+        android:fontFamily="@font/happymonkey_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="18sp"
+        android:text="@string/opcio8joc7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opcio7joc7" />
+
+    <ImageButton
+        android:id="@+id/opcio9joc7icon"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/ic_baseline_image_search_24"
+        android:tag="9"
+        app:layout_constraintEnd_toStartOf="@+id/opcio9joc7"
+        app:layout_constraintTop_toBottomOf="@+id/opcio8joc7" />
+
+    <TextView
+        android:id="@+id/opcio9joc7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/border_color"
+        android:fontFamily="@font/happymonkey_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="18sp"
+        android:text="@string/opcio9joc7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opcio8joc7" />
+
+
+    <Button
+        android:id="@+id/siguiente7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="@string/siguiente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="@font/happymonkey_regular"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

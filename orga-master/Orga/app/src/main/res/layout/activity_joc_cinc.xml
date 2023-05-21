@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fontFamily="@font/happymonkey_regular">
+
+    <fragment
+        android:id="@+id/fragment_id"
+        android:name="app.david.orgue.preferencias.Buto"
+        android:layout="@layout/fragment_botones"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="FragmentTagUsage"
+        tools:layout="@layout/fragment_botones" />
+
+    <TextView
+        android:id="@+id/textjoc5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/joc5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="@dimen/midaNormal"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/border_color"
+        android:fontFamily="@font/happymonkey_regular"
+        android:paddingHorizontal="30dp"
+        />
+
+    <app.david.orgue.MyImageView
+        android:id="@+id/imagen2Joc5"
+        android:layout_width="220dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/drawing3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textjoc5" />
+
+
+    <Button
+        android:id="@+id/infoJoc5"
+        android:fontFamily="@font/happymonkey_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/imagen2Joc5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="70dp"
+        android:text="Informació"
+        />
+
+
+
+    <Button
+        android:id="@id/siguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="@string/siguiente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="@font/happymonkey_regular"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
