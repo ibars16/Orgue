@@ -10,8 +10,8 @@ import java.io.*;
 
 public class Constantes {
 
-    public static final int[] raws = { R.raw.passacalgia, R.raw.fuguec, R.raw.musica3, R.raw.minor2, R.raw.minor3, R.raw.minor3};
-    public static final String[] rawsName = {"Passacaglia and Fugue in C Minor", "Fantasia and Fugue in C Minor", "Adagio in G Minor", "Toccata and Fugue in E Minor", "Adagio in G Minor", "Organ Symphony No. 5"};
+    public static final int[] raws = { R.raw.miramar, R.raw.elcampanar, R.raw.xiquets, R.raw.cal, R.raw.amunt};
+    public static final String[] rawsName = {"Miramar", "El campanar", "Els xiquets de Valls", "La calçotada", "Amunt amunt"};
 
 
     public static final String FILEROUNDNAME = "pantalla.txt";
