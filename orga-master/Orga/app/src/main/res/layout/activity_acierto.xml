@@ -17,7 +17,7 @@
         android:textStyle="bold"
         android:paddingHorizontal="10dp"
         android:textColor="@color/border_color"
-        android:text="Has seleccionat l'opció correcte!"
+        android:text="Has seleccionat l'opció correcta!"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

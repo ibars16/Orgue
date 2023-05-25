@@ -40,7 +40,7 @@
         app:shapeAppearanceOverlay="@style/circleImageView"
         android:scaleType="centerCrop"
         android:alpha="0.45"
-        android:src="@drawable/orga5" />
+        android:src="@drawable/orgaaaaaaaaa" />
 
     <TextView
         android:fontFamily="@font/happymonkey_regular"

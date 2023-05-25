@@ -159,7 +159,7 @@ class GestorBDPartida(context: Context?) :
             totalFallos = totalOpcions
         }
 
-        return "Fallos :  " +totalFallos.toString() + " / " + totalOpcions.toString()
+        return "Errades :  " +totalFallos.toString() + " / " + totalOpcions.toString()
     }
 
     @SuppressLint("Range", "Recycle")
