@@ -17,6 +17,7 @@
         <activity
             android:name="app.david.orgue.historia.InformacioActivity"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_informacio"
             android:theme="@style/Theme.Orga.NoActionBar">
             <meta-data
@@ -27,6 +28,7 @@
         <activity
             android:name="app.david.orgue.Agraiments"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_informacio"
             android:theme="@style/Theme.Orga.NoActionBar">
             <meta-data
@@ -36,7 +38,7 @@
         <activity
             android:name="app.david.orgue.MainActivity"
             android:exported="true"
-
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Orga.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -52,8 +54,8 @@
         <activity
             android:name="app.david.orgue.jocs.jocUn.JocUnActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Orga.NoActionBar">
-
 
             <meta-data
                 android:name="android.app.lib_name"
@@ -62,6 +64,7 @@
         <activity
             android:name="app.david.orgue.jocs.jocDos.JocDosActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Orga.NoActionBar">
 
 
@@ -72,6 +75,7 @@
         <activity
             android:name="app.david.orgue.jocs.jocTres.JocTresActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Orga.NoActionBar">
 
 
@@ -82,6 +86,7 @@
         <activity
             android:name="app.david.orgue.jocs.jocQuatre.JocQuatreActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Orga.NoActionBar">
 
             <meta-data
@@ -91,6 +96,7 @@
         <activity
             android:name="app.david.orgue.jocs.jocQuatre.JocQuatreUnActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Orga.NoActionBar">
 
             <meta-data
@@ -100,6 +106,7 @@
         <activity
             android:name="app.david.orgue.jocs.jocCinc.JocCincActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Orga.NoActionBar">
 
             <meta-data
@@ -109,6 +116,7 @@
         <activity
             android:name="app.david.orgue.jocs.jocCinc.JocCincUnActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Orga.NoActionBar">
 
             <meta-data
@@ -118,6 +126,7 @@
         <activity
             android:name="app.david.orgue.jocs.jocSet.JocSetActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Orga.NoActionBar">
 
             <meta-data
@@ -127,6 +136,7 @@
         <activity
             android:name="app.david.orgue.jocs.jocSet.JocSetUnActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Orga.NoActionBar">
 
             <meta-data
@@ -136,6 +146,7 @@
         <activity
             android:name="app.david.orgue.jocs.jocVuit.JocVuitActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Orga.NoActionBar">
 
             <meta-data
@@ -145,6 +156,7 @@
         <activity
             android:name="app.david.orgue.jocs.jocVuit.JocVuitUnActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Orga.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
@@ -153,6 +165,7 @@
         <activity
             android:name="app.david.orgue.jocs.jocSis.JocSisActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Orga.NoActionBar">
 
             <meta-data
@@ -162,6 +175,7 @@
         <activity
             android:name="app.david.orgue.historia.InfoActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.Dialog.Alert"
             >
         </activity>
@@ -169,6 +183,7 @@
         <activity
             android:name="app.david.orgue.historia.InformacioJocActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.Dialog.Alert"
             >
         </activity>
@@ -176,6 +191,7 @@
         <activity
             android:name="app.david.orgue.historia.ImageActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.Dialog.Alert"
             >
         </activity>
@@ -183,6 +199,7 @@
         <activity
             android:name="app.david.orgue.historia.InformacioActivit"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Orga.NoActionBar">
 
             <meta-data
@@ -192,6 +209,7 @@
         <activity
             android:name="app.david.orgue.historia.MostrarInformacio"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Orga.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
@@ -200,6 +218,7 @@
         <activity
             android:name="app.david.orgue.puntuacio.PuntuacioActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Orga.NoActionBar">
 
             <meta-data
@@ -210,6 +229,7 @@
         <activity
             android:name="app.david.orgue.jocs.FinalActivitu"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Orga.NoActionBar">
 
             <meta-data
@@ -220,6 +240,7 @@
         <activity
             android:name="app.david.orgue.preferencias.PreferenciasActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.Dialog.Alert"
             android:windowNoTitle="true"
             >
@@ -231,6 +252,7 @@
         <activity
             android:name="app.david.orgue.preferencias.MusicaActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.Dialog.Alert"
             android:windowNoTitle="true"
             >
@@ -242,6 +264,7 @@
         <activity
             android:name="app.david.orgue.jocs.jocNou.JocNouActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:windowNoTitle="true"
             android:theme="@style/Theme.Orga.NoActionBar"
             >
